@@ -1,0 +1,7 @@
+<mvc:View controllerName="yelcho.demo.controller.App"
+  displayBlock="true"
+  height="100%"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+  <App id="app" />
+</mvc:View>

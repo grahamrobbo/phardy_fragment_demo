@@ -1,0 +1,74 @@
+{
+	"monsters": [
+		{
+			"ranking": "0",
+			"name": "The Creature",
+			"movie": "The Creature from the Black Lagoon",
+			"image": "the-creature.jpeg",
+			"description": "Where werewolves, zombies and the rest of the creature feature set are terrifying because of their tenuous ties to humanity, The Creature from the Black Lagoon is terrifying because of his lack of one. A seemingly prehistoric inhuman creature that embodies every innate fear about deep, dark water. Sporting some of the most inspired creature design of any monster on this list thanks to Millicent Patrick, it's hard not to wonder how a remake hasn't made its way to screens yet. No matter, the classic is almost as engaging as it was on the day of its release."
+		},
+		{
+			"ranking": "9",
+			"name": "The Pale Man",
+			"movie": "Pan's Labyrinth",
+			"image": "pale-man.jpeg",
+			"description": "What makes Guillermo del Toro the king of the monsters? This guy. While Pan's Labyrinth is stuffed with amazing creatures, flawless production design and brilliant performances, the real star of the film is on screen for about 3 minutes in total, a shriveled and deeply disturbing humanoid monster with a taste for children. He's a clear allegory for the oppressive and uncaring governmental regime and specifically, the unfeeling Captain Vidal that turns Ofelia's world upside down. A clever inversion of fairy tale tropes with a brilliant design, the Pale Man is a disturbing sight whether you're watching the film for the first time or the fiftieth."
+		},
+		{
+			"ranking": "8",
+			"name": "Werewolf",
+			"movie": "An American Werewolf in London",
+			"image": "american-werewolf.jpeg",
+			"description": "Werewolves have a long and storied cinematic history, and while Lon Cheney Jr.'s Wolfman is a classic of cinema, it's Rick Baker's perfect practical transformations in An American Werewolf in London that  really helped define the mystical creature's on-screen traditions. The transformation: awe-inspiring, icky, but altogether a horror for the one that experiences it, helps to stick this very specific kind of lycanthrope in the mind. But the magic also lies in the fact that John Landis' film acknowledges and respects the pop culture existence of werewolves, crossing the film's creatures over from the hallowed horror tradition to a world that feels eerily like our own."
+		},
+		{
+			"ranking": "7",
+			"name": "Reapers",
+			"movie": "Blade II",
+			"image": "blade-2.jpeg",
+			"description": "Guess who? While vampires have gripped the cultural imagination for decades, it's del Toro that went pedal to the metal with his designs for the bloodsuckers. Taking the concept of a human parasite quite literally in Blade II, del Toro envisions a new breed of vampire with an unhingeable jaw, revealing a deeply disturbing ringworm like sucker within. The transformations themselves are notable enough, but to see them unfurl from an otherwise normal vampire visage, makes the Reapers pop culture's most specific and affecting iteration of vamps."
+		},
+		{
+			"ranking": "6",
+			"name": "Frankenstein's Monster",
+			"movie": "Frankenstein",
+			"image": "frankenstein.jpeg",
+			"description": "It's hard to beat Frankenstein (or rather, Frankenstein's monster, if we're getting technical about it). Technically a zombie re-animated through technological prowess and man's hubris, it's a monster unfamiliar with the rules of the world and his own strength, as well as a monster beset with the plight of human connection. He's tragic, iconic, deeply scary, and hard to beat. Remakes need not apply."
+		},
+		{
+			"ranking": "5",
+			"name": "King Kong",
+			"movie": "King Kong",
+			"image": "king-kong.png",
+			"description": "You don't earn the title 'King of the Jungle' for nothing. Across more than eight decades and countless film iterations, King Kong remains one of the most bewitching and tragic of the movie monster set. And while Peter Jackson's 2005 film has its strengths, the definitive King Kong is still the 1933 film (despite its unsavory racial overtones). The effects for all their iffy aging, are crafty and admirable even years on, making the original Kong a massive achievement no matter how old the movie magic is."
+		},
+		{
+			"ranking": "4",
+			"name": "Godzilla",
+			"movie": "Godzilla",
+			"image": "godzilla.jpeg",
+			"description": "Though Gareth Edwards' fantastic and subtle blockbuster breathed fresh life into the age-old monster, it's hard to beat the 1954 Godzilla, which was borne out of incredible loss and nuclear fallout. A physical incarnation of some of society's greatest sins and the ghost of terrible things past, Godzilla has iconic creature design nearly as affecting as its inherent politics."
+		},
+		{
+			"ranking": "3",
+			"name": "Brundlefly",
+			"movie": "The Fly",
+			"image": "the-fly.jpeg",
+			"description": "It's only fair that the master of body horror hold a high place on this list – and there's no better Cronenberg video nasty than the dripping, gloopy Brundlefly, a horrifying amalgam of man and fly that obscures the deep humanity of Seth (the ever-quirky Jeff Goldblum). The Brundlefly takes most of the film to arrive as the scientific experiment slowly engulfs Seth's body, but while he hardly lasts long before being dispatched by his lover, it's the metaphoric dread of becoming a monster yourself that propels The Fly to the front of the pack."
+		},
+		{
+			"ranking": "2",
+			"name": "Xenomorph",
+			"movie": "Alien",
+			"image": "alien.jpeg",
+			"description": "All hail the queen. The Xenomorph, the brainchild of the darkly minded genius H.R. Giger, is what alien nightmares are made of. Part machine, part natural aberrance, the Alien that besets Ripley moves with the kind of haunting assurance befitting of the creature's power. With acid blood and rows of nested teeth, the Xenomorph is a stroke of pure monster genius that, when it comes to pop culture at least, is truly immortal. (See: Alien: Covenant.)"
+		},
+		{
+			"ranking": "1",
+			"name": "The Thing",
+			"movie": "The Thing",
+			"image": "the-thing.jpeg",
+			"description": "In a way, The Thing has got this whole monster competition rigged. A shape-shifting alien with the ability to synthesize and morph into the DNA of any of its victims means that The Thing has the unique ability to become anyone's worst nightmare at any moment, made even more harrowing by John Carpenter's commitment to terrifyingly grotesque practical effects. Whether your favorite is the grotesque, transformed dog or the iconic spider-head, The Thing is a monster with the ability to transform into the most terrifying thing of all: one of us."
+		}
+	]
+}

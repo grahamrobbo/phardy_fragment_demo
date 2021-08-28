@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.ui.layout.form">
+  <Dialog title="{name}"
+    contentWidth="auto"
+    contentHeight="auto">
+    <content>
+      <ObjectHeader iconDensityAware="true"
+        title="{name}"
+        number="{ranking}"
+        numberUnit="Ranking"
+        class="sapUiResponsivePadding--header">
+        <ObjectAttribute text="From the movie {movie}" />
+      </ObjectHeader>
+      <FlexBox direction="Column"
+        alignItems="Start"
+        justifyContent="Center">
+        <items>
+          <Image src="./demo/img/{image}" />
+          <TextArea value="{description}"
+            enabled="false"
+            growing="true"
+            width="100%" />
+        </items>
+      </FlexBox>
+    </content>
+    <buttons>
+      <Button text="{i18n>close}"
+        type="Transparent"
+        press="onDialogClose" />
+    </buttons>
+  </Dialog>
+</core:FragmentDefinition>

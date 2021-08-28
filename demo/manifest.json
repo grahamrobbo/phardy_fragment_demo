@@ -1,0 +1,63 @@
+{
+	"_version": "1.0.1",
+	"sap.app": {
+		"id": "yelcho.demo",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.1"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "yelcho.demo.view.App",
+			"type": "XML",
+			"async": true,
+			"id": "app"
+		},
+		"dependencies": {
+			"minUI5Version": "1.91.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"config": {
+			"fullWidth": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "yelcho.demo.i18n.i18n",
+					"supportedLocales": ["en"],
+					"fallbackLocale": "en"
+				}
+			}
+		},
+		"resources": {},
+		"routing": {
+			"config": {
+				"routerClass": "sap.f.routing.Router",
+				"viewType": "XML",
+				"viewPath": "yelcho.demo.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"transition": "slide",
+				"bypassed": {},
+				"async": true
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "default",
+					"target": "default"
+				}
+			],
+			"targets": {
+				"default": {
+					"viewName": "View"
+				}
+			}
+		}
+	}
+}
