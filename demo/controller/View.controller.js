@@ -21,7 +21,6 @@ sap.ui.define(
 			},
 			onMonsterPressed: function (oEvent) {
 				const oItem = oEvent.getParameter("item")
-				const oView = this.getView()
 				Log.info(`onMonsterPressed`, oItem.getText())
 
 				if (!this._monsterDetailDialog)
@@ -30,10 +29,8 @@ sap.ui.define(
 						controller: this,
 					}).then((oDialog) => {
 						Log.info(`monsterDetailDialog`, `Instantiated`)
-						return new Promise((resolve, reject) => {
-							oView.addDependent(oDialog)
-							resolve(oDialog)
-						})
+						this.getView().addDependent(oDialog)
+						return oDialog
 					})
 
 				this._monsterDetailDialog.then((oDialog) => {
