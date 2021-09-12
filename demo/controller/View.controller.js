@@ -7,7 +7,7 @@ sap.ui.define(
 	function (Controller, Log, Fragment) {
 		return Controller.extend("yelcho.demo.controller.View", {
 			onInit: function () {
-				Log.info(`Controller "${this.getMetadata()._sClassName}"`, "onInit")
+				Controller.prototype.onInit.apply(this, arguments)
 				this.getRouter().attachRouteMatched(this.onRouteMatched, this)
 			},
 			onRouteMatched: function () {
